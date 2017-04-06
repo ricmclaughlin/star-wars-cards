@@ -1,0 +1,55 @@
+.col-3, .col-4, .col-6, .col-12 {
+  float: left;
+  padding-left: 1.04166666%;
+  padding-right: 1.04166666%;
+}
+
+/* Mobile defaults */
+.col-3, .col-4, .col-6, .col-12 {
+  width: 100%;
+}
+
+@media only screen and (min-width: 640px) {
+  /* 3 columns, 3/12 in % */
+  .col-3 {
+    width: 25%;
+  }
+
+  /* 4 columns */
+  .col-4 {
+    width: 33.3%;
+  }
+
+  /* 6 columns */
+  .col-6 {
+    width: 50%;
+  }
+
+  /* 12 columns */
+  .col-12 {
+    width: 100%;
+  }
+}
+
+.box {
+  border: 1px solid lightgray;
+  margin-top: 15px;
+}
+
+.box img {
+  max-width:100%;
+  max-height:100%;
+
+}
+
+.box footer {
+  padding: 15px;
+}
+
+.box footer h2 {
+
+}
+
+.box footer p {
+
+}
